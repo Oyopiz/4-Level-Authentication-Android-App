@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1001611086454",
+    "firebase_url": "https://final-2a20e-default-rtdb.firebaseio.com",
+    "project_id": "final-2a20e",
+    "storage_bucket": "final-2a20e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001611086454:android:736d75ade2b4745c4a2d57",
+        "android_client_info": {
+          "package_name": "com.example.firebasefullcourse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1001611086454-0bag15remv588ur24l9j63s537mmaghk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcjnyEECH8vXojxIyZrg5FQV0vObbvdRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1001611086454-0bag15remv588ur24l9j63s537mmaghk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

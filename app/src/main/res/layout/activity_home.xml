@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="20dip"
+            android:text="KABARAK ATM SYSTEM"
+            android:drawableEnd="@drawable/ic_baseline_notifications_24"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="10dip"
+            android:id="@+id/balancetxt"
+            android:text="$76,890,7654"
+            android:textColor="@color/black"
+            android:textSize="20dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="10dip"
+            android:text="moolah>  loot"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:elevation="24dip"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dip"
+                android:layout_gravity="center"
+                android:src="@drawable/atm" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="withdraw"
+                    android:text="Withdraw\n $5,000" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="Deposit"
+                    android:text="Deposit\n $5,000" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:onClick="Send"
+                    android:layout_height="wrap_content"
+                    android:text="Send\n $5,000" />
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:elevation="20dip"
+                android:background="@drawable/background"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="5dp"
+                app:contentPadding="8dp" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Recent Transactions"
+                    android:layout_marginLeft="30dip"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="List"
+                    android:layout_marginTop="25dip"
+                    android:layout_marginLeft="30dip"
+                    android:layout_height="wrap_content"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:src="@drawable/ic_baseline_attach_money_24"
+                        android:layout_height="wrap_content"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Sent to Jeniffer Otieno"
+                        android:layout_height="wrap_content"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="-$4,000"
+                        android:textColor="#FB0000"
+                        android:layout_marginLeft="90dip"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dip"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:src="@drawable/ic_baseline_attach_money_24"
+                        android:layout_height="wrap_content"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Sent to Afred Kibogo"
+                        android:layout_height="wrap_content"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="-$6,000"
+                        android:textColor="#FB0000"
+                        android:layout_marginLeft="90dip"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
