@@ -10,3 +10,8 @@ Then Open the project Location in Android Studio
 
 # Firebase
 After Installation is complete Create a New Firebase Project and enable Email and Password Auth and Realtime database.
+# Screenshot
+![alt text](https://github.com/Oyopiz/4-Level-Authentication-Android-App/blob/master/screenshot/Screenshot_20211231-100455.png)
+![alt text](https://github.com/Oyopiz/4-Level-Authentication-Android-App/blob/master/screenshot/Screenshot_20211231-100524.png)
+![alt text](https://github.com/Oyopiz/4-Level-Authentication-Android-App/blob/master/screenshot/Screenshot_20211231-100535.png)
+![alt text](https://github.com/Oyopiz/4-Level-Authentication-Android-App/blob/master/screenshot/Screenshot_20211231-100605.png)
