@@ -12,10 +12,8 @@ Then Open the project Location in Android Studio
 After Installation is complete Create a New Firebase Project and enable Email and Password Auth and Realtime database.
 # Screenshot
 
-<img src="https://github.com/Oyopiz/4-Level-Authentication-Android-App/blob/master/screenshot/Screenshot_20211231-100455.png"width=50% height=50%>
-<img src="https://github.com/Oyopiz/4-Level-Authentication-Android-App/blob/master/screenshot/Screenshot_20211231-100455.png" alt="Your image title" width="250"/>
-![alt text](https://github.com/Oyopiz/4-Level-Authentication-Android-App/blob/master/screenshot/Screenshot_20211231-100524.png = 30* 30)
-![alt text](https://github.com/Oyopiz/4-Level-Authentication-Android-App/blob/master/screenshot/Screenshot_20211231-100535.png)
-![alt text](https://github.com/Oyopiz/4-Level-Authentication-Android-App/blob/master/screenshot/Screenshot_20211231-100605.png)
 
-![alt text](https://github.com/Oyopiz/4-Level-Authentication-Android-App/blob/master/screenshot/Screenshot_20211231-100605.png =250x250)
+<img src="https://github.com/Oyopiz/4-Level-Authentication-Android-App/blob/master/screenshot/Screenshot_20211231-100455.png" alt="Your image title" width="250"/>
+<img src="https://github.com/Oyopiz/4-Level-Authentication-Android-App/blob/master/screenshot/Screenshot_20211231-100455.png" alt="Your image title" width="250"/>
+<img src="https://github.com/Oyopiz/4-Level-Authentication-Android-App/blob/master/screenshot/Screenshot_20211231-100455.png" alt="Your image title" width="250"/>
+<img src="https://github.com/Oyopiz/4-Level-Authentication-Android-App/blob/master/screenshot/Screenshot_20211231-100455.png" alt="Your image title" width="250"/>
