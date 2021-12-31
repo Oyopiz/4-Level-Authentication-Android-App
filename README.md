@@ -7,3 +7,4 @@ This project uses gradle build System. To execute this project, "Import Project"
 ```git clone https://Oyopiz/4-Level-Authentication-Android-App.git```
 
 Then Open the project Location in Android Studio
+After Installation is complete Create a New Firebase Project and enable Email and Password Auth and Realtime database.
